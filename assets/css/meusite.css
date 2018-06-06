@@ -1,0 +1,167 @@
+body{
+	margin:0;
+	padding:0;
+}
+#nome{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:#1e1e1e;
+}
+.container{
+	display:flex;
+	width:1200px;
+}
+.topo1{
+	display:flex;
+	height:100%;
+	width:100%;
+	justify-content:center;
+	align-items:center;
+}
+.topo1 a{
+	text-decoration:none;
+}
+.meu_nome{
+	display:flex;
+	height:150px;
+	width:850px;
+	border:1px solid #FFF;
+	
+	align-items:center;
+	flex-direction:column;
+}
+.meu_nome h1{
+	display:flex;
+	font-size:60px;
+	font-family:monospace;
+	color:#FFF;
+	margin-top:40px;
+	margin-bottom:3px;
+}
+.meu_nome h2{
+	display:flex;
+	font-size:20px;
+	font-family:monospace;
+	color:#FFF;
+}
+#menu_navegacao{
+	display:flex;
+	background-color:#323232;
+	justify-content:center; /* Para centralizar e encaixar dentro do container */
+}
+.topo2{
+	display:flex;
+	height:80px;
+	width:100%;
+	justify-content:center;
+}
+.menu{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+nav ul,
+nav li{
+	list-style:none;
+	margin:0;
+	padding:0;
+	font-family:monospace;
+	font-size:20px;
+}
+nav ul{
+	display:flex;
+}
+nav a{
+	display:block;
+	padding:20px;
+	text-decoration:none;
+	color:#918f8f;
+}
+nav a:hover{
+	color:#FFF;
+}
+#sobre{
+	display:flex;
+	justify-content:center;
+	background-color:#335fc3;
+	flex:1;
+}
+.column{
+	flex-direction:column;
+}
+.title_sobre{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:250px;
+	border-bottom:1px solid #CCC;
+}
+.title_sobre text{
+	display:flex;
+	font-size:45px;
+	color:#FFF;
+	font-family:verdana;
+	padding-bottom::30px;
+}
+.title_main{
+	display:flex;
+	padding:20px;
+}
+.sobre_name{
+	display:flex;
+	flex:2;
+}
+
+.sobre_name name{
+	font-size:30px;
+	font-family:monospace;
+	font-weight:bold;
+	color:#FFF;
+	padding-bottom:5px;
+}
+.sobre_name prof{
+	font-size:20px;
+	font-family:monospace;
+	color:#FFF;
+}
+
+.sobre_name text{
+	font-family:verdana;
+	color:#FFF;
+	font-size:25px;
+	margin-right:70px;
+	border-bottom:1px solid #CCC;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-weight:none;
+}
+.title_photo{
+	display:flex;
+
+	align-items:center;
+	justify-content:center;
+	font-family:verdana;
+	flex:1;
+	color:#FFF;
+}
+.descricao{
+	display:flex;
+	flex-direction:column;
+	margin-top:20px;
+
+}
+.desc_1,
+.desc_2,
+.desc_3{
+	font-size:20px;
+	font-family:monospace;
+	margin-right:70px;
+	padding:10px;
+	color:#FFF;
+}
+.desc_3{
+	padding-bottom:30px;
+	border-bottom:1px solid #CCC;
+}
+
